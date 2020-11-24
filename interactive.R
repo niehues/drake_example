@@ -1,8 +1,6 @@
 ################################################################################
 ## Title:         interactive.R
 ## Description:   Commands for running workflow in interactive session
-## Input:
-## Ouput:
 ## Author: 
 ## Date created: 
 ## Copyright

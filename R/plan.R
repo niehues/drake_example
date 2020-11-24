@@ -1,8 +1,6 @@
 ################################################################################
 ## Title:         plan.R
 ## Description:   Definition of analysis workflow using drake
-## Input:
-## Ouput:
 ## Author: 
 ## Date created: 
 ## Copyright
@@ -17,6 +15,9 @@ plan <- drake::drake_plan(
   # check if output directory exists
   outdir = check_dir(outdir_path),
 
+  # get some data to work with as an example
+  data = get(data(iris)),
+  
   # Render markdown report
   report = rmarkdown::render(
     knitr_in("report.Rmd"),
