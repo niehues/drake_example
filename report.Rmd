@@ -4,3 +4,18 @@ author: ""
 output: html_document
 ---
 
+## Load data from workflow
+
+Print loaded data directly
+
+```{r}
+library(drake)
+readd(results)
+```
+
+Load data
+
+```{r}
+loadd(results)
+lapply(results, summary)
+```

@@ -53,7 +53,18 @@ drake_example/
 
 ### Executing the workflow
 
-Run `run.R` to run the workflow defined in `plan.R` including rendering a markdown report with the results.
+Run `run.R` to run the workflow defined in `plan.R` including rendering a markdown report with the results. The following files are produced:
+
+```
+drake_example/
+├───.drake/             # contains intermediate data files from workflow
+└───output/
+    └───report.html     # results report
+```
+
+### Adding to the workflow
+
+Add or modify analyses steps in the drake plan defined in `R/plan.R`. Custom functions needed for the analysis are defined in `R/functions.R`
 
 ## Outlook
 

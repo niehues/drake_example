@@ -11,3 +11,6 @@
 ################################################################################
 
 outdir_path <- here::here("output")
+
+# parameter values used in the workflow
+factors <- c(2, 4)
