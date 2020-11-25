@@ -8,7 +8,7 @@ This R project example using `renv` and `drake` is based on
 
 ## Installation requirements
 
-- R (example tested with version 4.0.3)
+- R (example tested with version 4.0.3, and 3.6.3)
 - RStudio (example tested with Version 1.3.1073)
 - [Rtools](https://cran.r-project.org/bin/windows/Rtools/)
 
